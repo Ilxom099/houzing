@@ -5,7 +5,7 @@ import Signup from "../Signup";
 export const Register = () => {
   return (
     <Container>
-      <AntTabs
+      <AntTabs style={{background: 'red'}}
         defaultActiveKey="1"
         items={[
           {

@@ -18,6 +18,48 @@ export const Why = () => {
         </Content.Item>
       </Content>
       <Content>
+        <Content.Title>Contact Us</Content.Title>
+        <Content.Item>
+          <Icon.Email /> Bunyodkor kochasi, Chilonzor 64-dom, 2-etaj, 1-hone,
+          Webbrain Academy
+        </Content.Item>
+        <Content.Item>
+          {' '}
+          <Icon.Phone /> 998 33 576 2020
+        </Content.Item>
+        <Content.Item>
+          <Icon.Email /> webbrainacademy@gmail.com
+        </Content.Item>
+      </Content>
+      <Content>
+        <Content.Title>Contact Us</Content.Title>
+        <Content.Item>
+          <Icon.Email /> Bunyodkor kochasi, Chilonzor 64-dom, 2-etaj, 1-hone,
+          Webbrain Academy
+        </Content.Item>
+        <Content.Item>
+          {' '}
+          <Icon.Phone /> 998 33 576 2020
+        </Content.Item>
+        <Content.Item>
+          <Icon.Email /> webbrainacademy@gmail.com
+        </Content.Item>
+      </Content>
+      <Content>
+        <Content.Title>Contact Us</Content.Title>
+        <Content.Item>
+          <Icon.Email /> Bunyodkor kochasi, Chilonzor 64-dom, 2-etaj, 1-hone,
+          Webbrain Academy
+        </Content.Item>
+        <Content.Item>
+          {' '}
+          <Icon.Phone /> 998 33 576 2020
+        </Content.Item>
+        <Content.Item>
+          <Icon.Email /> webbrainacademy@gmail.com
+        </Content.Item>
+      </Content>
+      <Content>
         <Content.Title>Wide Renge Of Properties</Content.Title>
 
         <Content.Item> Uzbekistan</Content.Item>
