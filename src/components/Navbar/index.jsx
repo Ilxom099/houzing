@@ -86,6 +86,50 @@ export const Home = () => {
             )}
           </Section>
         </Wrapper>
+        <Wrapper>
+          <Section onClick={() => navigate("/home")} logo>
+            <Logo /> <h3 style={{ color: "white" }}>jdshgfknlm;fgsjdnmnewgjbifdsknlierhdfjknrei</h3>
+          </Section>
+          <Section>
+            {navbar.map(({ title, path, hidden }, index) => {
+              return (
+                !hidden && (
+                  <Link
+                    className={({ isActive }) => isActive && "active"}
+                    key={index}
+                    to={path}
+                  >
+                    {title}
+                  </Link>
+                )
+              );
+            })}
+          </Section>
+          <Section>
+            {token ? (
+              <Dropdown
+                overlay={menu}
+                placement="topRight"
+                arrow={{ pointAtCenter: true }}
+                trigger="click"
+              >
+                <Button type="dark">
+                  <div>Profile</div>
+                </Button>
+                <Button type="dark">
+                  <div>Profile</div>
+                </Button>
+                <Button type="dark">
+                  <div>Profile</div>
+                </Button>
+              </Dropdown>
+            ) : (
+              <Button onClick={onClick} type="dark">
+                Sign In
+              </Button>
+            )}
+          </Section>
+        </Wrapper>
       </Main>
       <Filter />
       <Outlet />
