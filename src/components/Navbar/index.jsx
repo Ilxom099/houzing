@@ -40,11 +40,11 @@ export const Home = () => {
     </Menu>
   );
   return (
-    <Container>
+    <Container style={{background: "blue"}}>
       <Main>
         <Wrapper>
           <Section onClick={() => navigate("/home")} logo>
-            <Logo /> <h3 style={{ color: "white" }}>Houzing</h3>
+            <Logo /> <h3 style={{ color: "white" }}>jdshgfknlm;fgsjdnmnewgjbifdsknlierhdfjknrei</h3>
           </Section>
           <Section>
             {navbar.map(({ title, path, hidden }, index) => {
@@ -69,6 +69,12 @@ export const Home = () => {
                 arrow={{ pointAtCenter: true }}
                 trigger="click"
               >
+                <Button type="dark">
+                  <div>Profile</div>
+                </Button>
+                <Button type="dark">
+                  <div>Profile</div>
+                </Button>
                 <Button type="dark">
                   <div>Profile</div>
                 </Button>

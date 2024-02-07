@@ -27,6 +27,18 @@ export const GenCarousel = () => {
         <Img src={img1} />
         <Img src={img2} />
       </Carousel>
+      <Carousel ref={slider} afterChange={onChange}>
+        <Img src={img1} />
+        <Img src={img2} />
+      </Carousel>
+      <Carousel ref={slider} afterChange={onChange}>
+        <Img src={img1} />
+        <Img src={img2} />
+      </Carousel>
+      <Carousel ref={slider} afterChange={onChange}>
+        <Img src={img1} />
+        <Img src={img2} />
+      </Carousel>
       <Blur />
       <Content>
         <Content.Title>Skyper Pool Partment</Content.Title>
